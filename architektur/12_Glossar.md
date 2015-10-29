@@ -1,0 +1,6 @@
+Glossar
+=======
+
+| Begriff | Definition |
+| ------- | ---------- |
+|         |            |
