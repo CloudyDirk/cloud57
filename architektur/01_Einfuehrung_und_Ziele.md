@@ -18,4 +18,4 @@ Stakeholder
 
 | Rolle | Beschreibung |
 | ------| ------------ |
-|       |              |
+| Entwickler |  Erstellt die Applikation |
