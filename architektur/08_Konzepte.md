@@ -32,7 +32,7 @@ Das Web-Userinterface ist einfach gehalten. Nachdem sich ein Nutzer angemeldet h
 
 Die nachfolgende Abbildung skizziert die Ansicht von ToDos.
 
-![moqup_web_todos_main](https://cloud.githubusercontent.com/assets/15434603/11015766/d0bd8d20-856b-11e5-8a46-b8b5fff4b1d6.png)
+![moqup_web_todos_main](Abbildungen/Moqup_Web_ToDos_Main.png)
 _Abbildung: ToDo-Liste im Web_
 
 Jedes ToDo kann hierbei über die Checkbox als "erledigt" gekennzeichnet werden. Des Weiteren kann über das kleine "x" in der oberen rechten Ecke ein Todo aus der Liste gelöscht werden. Neue ToDos können über das "plus" Icon in der oberen rechten Ecke der Webseite hinzugefügt werden. 
