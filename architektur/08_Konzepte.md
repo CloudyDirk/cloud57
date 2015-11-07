@@ -1,6 +1,7 @@
 Konzepte
 ========
 
+
 Fachliche Strukturen und Modelle
 --------------------------------
 
@@ -13,9 +14,20 @@ Persistenz
 ----------
 
 
-Benutzungsoberfläche
---------------------
+Userinterface
+-------------
+Die folgenden Userinterfaces sind zu unterscheiden.
+* Web
+* Mobile
+* Administration
 
+##### Web
+Das Web-Userinterface ist einfach gehalten. Nachdem sich ein Nutzer angemeldet hat, stehen ihm die folgenden Funktionen zur Verfügung:
+
+* Ansicht der bereits eingegebenen ToDos (in einer Liste)
+* Hinzufügen eines neuen ToDos
+* Editieren eines bereits eingegebenen ToDos
+* "Abhaken" eines erledigten ToDos.
 
 Ergonomie
 ---------
