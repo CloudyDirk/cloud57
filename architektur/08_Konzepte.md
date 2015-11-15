@@ -23,25 +23,39 @@ Die folgenden Userinterfaces sind zu unterscheiden.
 * Administration
 
 ##### Web
-Das Web-Userinterface ist einfach gehalten. Nachdem sich ein Nutzer angemeldet hat, stehen ihm die folgenden Funktionen zur Verfügung:
+Das Web-Userinterface ist einfach gehalten. 
 
-* Ansicht der bereits eingegebenen ToDos (in einer Liste)
-* Hinzufügen eines neuen ToDos
-* Editieren eines bereits eingegebenen ToDos
-* "Abhaken" eines erledigten ToDos.
-* "Löschen" eines ToDos.
+**Login-Maske**
 
-Die nachfolgende Abbildung skizziert die Ansicht von ToDos.
+Zu Beginn muss sich ein Anwender anmelden. Dies erfolgt über die Login-Maske. Hier muss der Anwender einen Anwendernamen (username) und ein Password (password) angeben.
+
+Mit einem Click auf "Login" kann der Anwender den Login durchführen. Sind username/password korrekt, wird der Anwender zur Haupt-Maske weitergeleitet. Liegt ein Fehler vor, wird dies in der Login-Maske angezeigt. 
+
+Alternativ zum Click auf "Login" kann sich der Anwender auch mit einem Click auf "Login via Twitter" anmelden. Hierzu muss der Anwender seinen Twitter-Login und sein Twitter-Password angeben. Zur Anmeldung wird dann die von Twitter zur Verfügung gestellt "Sign-in with Twitter" Funktionalität verwendet (s. "https://dev.twitter.com/web/sign-in").   
+
+TBD: "Login via Facebook", "Login via Google+", "Login via GitHub" 
+
+**Haupt-Maske** 
+
+Nachdem sich der Anwender angemeldet hat, stehen ihm in der Haupt-Maske die folgenden Funktionen zur Verfügung:
+
+* Ansicht der bereits eingegebenen Todos (in einer Liste)
+* Hinzufügen eines neuen Todos
+* Editieren eines bereits eingegebenen Todos
+* "Abhaken" eines erledigten Todos.
+* "Löschen" eines Todos.
+
+Die nachfolgende Abbildung skizziert die Ansicht von Todos.
 
 ![moqup_web_todos_main](Abbildungen/Moqup_Web_ToDos_Main.png)
 <br>
-_Abbildung: ToDo-Liste im Web_
+_Abbildung: Todo-Liste im Web_
 
-Jedes ToDo kann hierbei über die Checkbox als "erledigt" gekennzeichnet werden. Des Weiteren kann über das kleine "x" (in der oberen rechten Ecke) ein Todo aus der Liste gelöscht werden.
+Jedes Todo kann hierbei über die Checkbox als "erledigt" gekennzeichnet werden. Des Weiteren kann über das kleine "x" (in der oberen rechten Ecke) ein Todo aus der Liste gelöscht werden.
 
-Neue ToDos können über das "Plus" Icon in der oberen rechten Ecke der Webseite hinzugefügt werden. Nutzer, die lieber intensiv die Tastatur verwenden, können auch über die Numpad-Taste "+" ein neues ToDo einfügen. Wird ein neues ToDo eingefügt, erscheint eine Textbox, in der der Nutzer den Text des ToDos eintragen kann. Mit "Return" wird das ToDo in die Liste der bestehenden ToDos eingefügt. Will der Anwender die Erstellung des ToDos abbrechen, kann er dies mit "Esc" durchführen.
+Neue Todos können über das "Plus" Icon in der oberen rechten Ecke der Webseite hinzugefügt werden. Anwender, die lieber intensiv die Tastatur verwenden, können auch über die Numpad-Taste "+" ein neues Todo einfügen. Wird ein neues Todo eingefügt, erscheint eine Textbox, in der der Anwender den Text des Todos eintragen kann. Mit "Return" wird das Todo in die Liste der bestehenden Todos eingefügt. Will der Anwender die Erstellung des Todos abbrechen, kann er dies mit "Esc" durchführen.
 
-Eine Suchfunktion unterstützt den Anwender darin, alle ToDos (entlang des eingegebenen Suchbegriffs) zu durchsuchen. Das Suchergebnis wird dann (so, wie bereits zuvor die Gesamtliste aller ToDos) angezeigt. 
+Eine Suchfunktion unterstützt den Anwender darin, alle Todos (entlang des eingegebenen Suchbegriffs) zu durchsuchen. Das Suchergebnis wird dann (so, wie bereits zuvor die Gesamtliste aller Todos) angezeigt. 
 
 Ergonomie
 ---------
