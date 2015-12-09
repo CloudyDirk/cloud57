@@ -1,0 +1,22 @@
+Allgemeine Ausrichtung
+Team
+
+Benutzerverwaltung
+Persistierung
+Rest Schnittstellen Definition (erledigt)
+Objectmodel (erledigt)
+Dokumentation
+
+
+Mobil
+Webclient
+Satellizer
+
+Integrationen
+Design
+
+Homepage
+Marketing
+
+
+Release Planung
