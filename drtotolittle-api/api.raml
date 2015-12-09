@@ -1,0 +1,81 @@
+#%RAML 1.0
+title: Dr ToDo Little
+version: v1
+baseUri: http://www.drtodolittle.de/api
+documentation:
+
+types:
+  TodoType:
+    type: object
+    properties:
+      id: number
+      topic: string
+      done: boolean
+      createdate: date
+      donedate: date
+      
+/todos:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            type: TodoType[]
+            example:
+              [
+                {
+                  "id": "1",
+                  "topic": "Mein erster Task",
+                  "done": false,
+                  "createdate": "2009-01-01T12:00:00+01:00",
+                  "donedate": "2009-01-01T12:00:00+01:00"
+                },
+                {
+                  "id": "2",
+                  "topic": "Mein erster Task",
+                  "done": false,
+                  "createdate": "2009-01-01T12:00:00+01:00",
+                  "donedate": "2009-01-01T12:00:00+01:00"
+                }
+              ]
+  /{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type: TodoType
+              example:
+                {
+                  "id": "1",
+                  "topic": "Mein erster Task",
+                  "done": false,
+                  "createdate": "2009-01-01T12:00:00+01:00",
+                  "donedate": "2009-01-01T12:00:00+01:00"
+                }
+
+    delete:
+      responses:
+        200:
+    put:
+      body:
+        application/json:
+          type: string
+      responses:
+        200:
+          body:
+            application/json:
+              type: TodoType
+    /done:
+      get:
+        responses:
+          200:
+  post:
+    body:
+      application/json:
+        type: string
+    responses:
+      200:
+        body:
+          application/json:
+            type: TodoType
