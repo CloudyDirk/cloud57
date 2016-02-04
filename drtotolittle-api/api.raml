@@ -5,6 +5,12 @@ baseUri: http://www.drtodolittle.de/api
 documentation:
 
 types:
+  UserType:
+    type: object
+    properties:
+      email: string
+      password: string
+
   TodoType:
     type: object
     properties:
@@ -13,7 +19,14 @@ types:
       done: boolean
       createdate: date
       donedate: date
-      
+
+/users:
+  post:
+    body:
+      application/json:
+        type: UserType
+    responses:
+      204:
 /todos:
   get:
     responses:
@@ -56,7 +69,7 @@ types:
 
     delete:
       responses:
-        200:
+        204:
     put:
       body:
         application/json:
@@ -69,7 +82,7 @@ types:
     /done:
       get:
         responses:
-          200:
+          204:
   post:
     body:
       application/json:
